@@ -8,4 +8,4 @@
     (if (empty? wds)
         result
         (iter (bf wds)(+1 result))))
-  (iter sent 0))s
+  (iter sent 0))
