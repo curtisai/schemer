@@ -2,8 +2,9 @@
   (define (fact-iter product count)
     (if (> counter n)
         product
-        (fact-iter (* counter product)
-          (+ counter 1))))
+        (factor-iter (* counter product)
+          (+ counter 1)
+          n)))
   (fact-iter 1 1))
 
 (define (con-factorial n)
